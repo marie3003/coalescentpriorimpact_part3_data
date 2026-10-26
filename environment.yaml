@@ -1,0 +1,24 @@
+# Python environment for the notebooks, evaluation_helpers.py and scripts/*.py.
+# The cluster scripts (scripts/run_*_distances.sh) activate an environment named beast_tools.
+#
+#   conda env create -f environment.yaml
+#   conda activate beast_tools
+#
+# BEAST v1.10.4, BEAGLE and TreeAnnotator were loaded as cluster modules
+# (see scripts/run_beast_*_pertussis.sh) and are not installed here.
+name: beast_tools
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy=2.2
+  - pandas=2.3
+  - scipy=1.14
+  - matplotlib=3.10
+  - seaborn=0.13
+  - dendropy=5.0
+  - ipykernel
+  - jupyterlab
+  # SNP extraction for the pertussis alignment
+  - snp-sites

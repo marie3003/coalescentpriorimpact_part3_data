@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+
+data/pertussis_france/coalescent_tip_distances_1000.tsv
+data/pertussis_france/beast_constcoal/pertussis_constcoal_2010_2024_allseeds_10k.subsampled1000.trees
+data/pertussis_france/beast_constcoal/pertussis_constcoal_2010_2024_allseeds.log
+data/pertussis_france/beast_skygrid/pertussis_skygrid_2010_2024_allseeds_10k.subsampled1000.trees
+data/pertussis_france/beast_skygrid/pertussis_skygrid_2010_2024_allseeds.log
+data/pertussis_france/topology_distances_1000.csv
+data/pertussis_france/full_metadata.csv
+
+data/sarscov/coalescent_tip_distances_1000.tsv
+data/sarscov/beast_constcoal/SG_constant_b117_combined.log
+data/sarscov/beast_skygrid/SG_b117_combined.log
+data/sarscov/topology_distances_1000.csv
+
+data/pertussis_france/full_metadata.csv
