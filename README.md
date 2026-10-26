@@ -25,6 +25,8 @@ The pertussis isolates and metadata come from the supplementary information of B
 
 Large files such as the alignments, BEAST logs and posterior tree files are not tracked in git (see `.gitignore`).
 
+The exact sampling dates of the pertussis isolates are confidential and not shared. The repository includes `data/pertussis_france/metadata.csv` (isolate, year, country and genotypes) but not `full_metadata.csv`, which also contains the exact sampling date as a decimal year. The evaluation notebooks read `full_metadata.csv`, so the parts that need exact sampling dates cannot be re-run without it.
+
 ### Repository structure
 
 ```
